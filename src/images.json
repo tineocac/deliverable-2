@@ -1,0 +1,90 @@
+[
+    {
+        "icon":"01d",
+        "gift": "./assets/images/clear-sky-day.jpg"
+    },
+
+    {
+        "icon":"02d",
+        "gift":"./assets/images/few-clouds-day.jpg"
+    },
+    {
+        "icon":"03d",
+        "gift":"./assets/images/scattered-clouds-day.jpg"
+    },
+
+    {
+        "icon":"04d",
+        "gift":"./assets/images/broken-clouds-day.jpg"
+    },
+
+    {
+        "icon":"09d",
+        "gift":"./assets/images/shower-rain-day.jpg"
+    },
+
+    {
+        "icon":"10d",
+        "gift":"./assets/images/rain-day.jpg"
+    },
+
+    {
+        "icon":"11d",
+        "gift":"./assets/images/thunder-storm-day.jpg"
+    },
+
+    {
+        "icon":"13d",
+        "gift":"./assets/images/snow-day.jpg"
+    },
+
+    {
+        "icon":"50d",
+        "gift":"./assets/images/mist-day.jpg"
+    },
+
+    {
+        "icon":"01n",
+        "gift":"./assets/images/clear-sky-nigth.jpg"
+    },
+
+    {
+        "icon":"02n",
+        "gift":"./assets/images/few-clouds-night.jpg"
+    },
+
+    {
+        "icon":"03n",
+        "gift":"./assets/images/scattered-clouds-night.jpg"
+    },
+
+    {
+        "icon":"04n",
+        "gift":"./assets/images/broken-clouds-night.jpg"
+    },
+
+    {
+        "icon":"09n",
+        "gift":"./assets/images/shower-rain-nigth.jpg"
+    },
+
+    {
+        "icon":"10n",
+        "gift":"./assets/images/rain-nigth.jpg"
+    },
+
+    {
+        "icon":"11n",
+        "gift":"./assets/images/thunder-storm-night.jpg"
+    },
+
+    {
+        "icon":"13n",
+        "gift":"./assets/images/snow-night.jpg"
+    },
+
+    {
+        "icon":"50n",
+        "gift":"./assets/images/mist-night.jpg"
+    }
+]

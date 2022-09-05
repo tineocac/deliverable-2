@@ -1,0 +1,208 @@
+
+html, body, #root{
+  height: 100%;
+  margin: 0;
+}
+
+:root {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 10px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(5, 7, 12, 0.40);
+  width: 30%;
+  border-radius: 1em;
+  transition: 500ms;
+
+}
+
+.App:hover{
+  transform: scale(1.1);
+  transition: 500ms;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button{
+  cursor: pointer;
+  margin-top: 2em;
+  border-radius: 1em;
+  border: none;
+  box-shadow: 4.5px 4.5px 2px black;
+  transition: 500ms;
+  height: 2.5em;
+}
+
+.temperature{
+  color: lightcoral;
+}
+
+
+button:hover{
+  transform: scale(1.1);
+  transition: 500ms;
+  background-color:#C8FCEA;
+  
+}
+
+span{
+  font-weight: 700;
+  font-size: .7rem;
+}
+
+.img{
+  width: 300px;
+  height: 300px;
+}
+
+/* body{
+  background: linear-gradient(rgba(5,7,12, 0), rgba(5,7,12, 0)), url(./assets/images/clear-sky-day.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+h1, h2, b, i{
+  color: #C8FCEA;
+}
+
+h1{
+  text-shadow:3px 3px 2px black;
+}
+
+i{
+  font-size: 1.5em;
+}
+
+.fa-wind{
+  animation: wind 1s infinite;
+}
+.fa-cloud{
+  animation: cloud .9s infinite;
+}
+.fa-temperature-three-quarters{
+  animation: pressure 1.5s infinite;
+}
+
+article{
+  font-weight: 700;
+}
+
+@keyframes wind {
+  0%{
+    transform: translateX(0px);
+    }
+  50%{
+    transform: translateX(5px);
+  }
+
+  100%{
+    transform: translateX(0);
+  }
+}
+
+@keyframes cloud {
+  0%{
+      transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(2px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+@keyframes pressure {
+
+    0%{
+      transform: scale(1);
+  }
+  50%{
+    transform: scale(1.2);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+.state{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width:375px) {
+    h1{
+      font-size: 1.2rem;
+    }
+    h2{
+      font-size: 1rem;
+    }
+
+    article, span{
+        font-size: .7rem;
+    }
+
+    button{
+      width: 100px;
+      height: 60px;
+    }
+  }
+
+
+@media screen and (max-width:768px) {
+  .App{
+    width: 60%;
+  }  
+}
+
+
+.Clouds{
+  background-image: url(../src/assets/images/few-clouds-day.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Rain{
+  background-image: url(../src/assets/images/rain-day.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Snow{
+  background-image: url(../src/assets/images/snow-day.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Clear{
+  background-image: url(../src/assets/images/clear-sky-day.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Thunderstorm{
+  background-image: url(../src/assets/images/thunder-storm-day.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
