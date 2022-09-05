@@ -18,7 +18,7 @@ function App() {
     setSpinner(false)},
     3000
     )
-    setText("Loanding")
+    setText("Loading")
     setTimeout(() =>{
       setText()
     }, 3000)
