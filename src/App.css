@@ -23,11 +23,8 @@ html, body, #root{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: rgba(5, 7, 12, 0.40);
   width: 30%;
-  border-radius: 1em;
   transition: 500ms;
-
 }
 
 .App:hover{
@@ -39,6 +36,8 @@ html, body, #root{
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: rgba(5, 7, 12, 0.40);
+  border-radius: 1em;
 }
 
 button{
@@ -49,6 +48,7 @@ button{
   box-shadow: 4.5px 4.5px 2px black;
   transition: 500ms;
   height: 2.5em;
+
 }
 
 .temperature{
@@ -197,6 +197,11 @@ article{
   background-size: cover;
 }
 
+.loader{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
 
 

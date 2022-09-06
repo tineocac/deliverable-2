@@ -9,11 +9,11 @@ const WeatherApp = () => {
         <div>
             {
                 isLoading ? (
-                <>
+                <div className='loader'>
                     <ClockLoader
                     color={"#C8FCEA"} size={150}/>
-                    <h1>Loading</h1>
-                </>
+                    <h1>Loading...</h1>
+                </div>
                 ):
                 <div className='container'>
                     <h1>Weather App</h1>
