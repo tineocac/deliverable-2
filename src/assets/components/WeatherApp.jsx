@@ -13,10 +13,6 @@ const WeatherApp = () => {
                     <ClockLoader
                     color={"#C8FCEA"} size={150}/>
                     <h1>Loading</h1>
-                    <body
-                    className='prueba'>
-                        
-                    </body>
                 </>
                 ):
                 <div className='container'>
